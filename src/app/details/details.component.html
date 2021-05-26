@@ -7,7 +7,7 @@
       <mat-form-field [style.width.px]="142">
         <input matInput class="form-control" placeholder="foodname" type="text" [(ngModel)]="user.foodname" name="foodname">
       </mat-form-field>
-      <mat-form-field  [style.width.px]="70">
+      <mat-form-field class="tt"  [style.width.px]="70">
         <input matInput class="form-control" placeholder="amount" type="number" [(ngModel)]="user.kg" name="kg">
       </mat-form-field>Kg
       <br>
@@ -39,9 +39,9 @@
 
   <mat-dialog-actions>
     <span class="flex-spacer"></span>
-    <img class="img2"  (click)="openfood()" mat-dialog-update src="/assets/Shape Copy 3.svg">Delete
-    <button  class="button2" mat-button mat-dialog-close type="submit" (click)="onSubmit()"><i> Done</i></button>
-    <img class="img1" (click)="openfood()" src="/assets/Group 10 Copy.png">
+    <img class="img2"  (click)="openfood()" mat-dialog-update src="assets/Shape Copy 3.svg" routerLink="/menu">Delete
+    <button  class="button2" mat-button mat-dialog-close type="submit" (click)="onSubmit()" ><i> Done</i></button>
+    <img class="img1" (click)="openfood()" src="assets/Group 10 Copy.png" routerLink="/menu">
    </mat-dialog-actions>
 </form >
 <mat-dialog-actions mat-dialog-close>

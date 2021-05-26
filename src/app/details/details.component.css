@@ -69,6 +69,9 @@ label {
   line-height: 50px;
   cursor: pointer
 }
+.tt{
+	margin-left:15px;
+}
 
 #small:checked ~ label[for="small"],
 #medium:checked ~ label[for="medium"],

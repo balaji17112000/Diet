@@ -2,7 +2,7 @@
 <br>
 
 <span class="head2" [(ngModel)]="drop">{{mssg}}</span>
-<img  class="drop" type="input" (click)="drop = !drop" src="/assets/Shape.png">
+<img  class="drop" type="input" (click)="drop = !drop" src="assets/Shape.png" routerLink="/menu">
 <span class="kg head1"><b>{{mssg1}}<span style="font-size: 10px;">Kg</span></b></span> 
 <div *ngIf="drop">
 <span><b>Till Date</b></span>
@@ -10,5 +10,5 @@
 <span><b>pickup Date</b></span>
 <p>{{mssg3}}</p>
 </div>
-<img (click)="openfood() " class="img1" mat-dialog-close src="/assets/Group 10 Copy.png">
+<img (click)="openfood() " class="img1" mat-dialog-close src="assets/Group 10 Copy.png" routerLink="/menu">
 <button  class="button2" mat-button mat-dialog-close type="submit" (click)="onSubmit()"><i> Done</i></button>
