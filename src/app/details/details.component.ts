@@ -28,7 +28,7 @@ export class DetailsComponent implements OnInit {
     console.log('User: ', this.user);
       this.dialogRef.close([]);
 	  
-  this.dialog.open(ResultComponent,{width: '357px', height: '560px'});
+  this.dialog.open(ResultComponent,{width: '357px'});
 }
 openfood() {
 	this.dialogRef.close([]);

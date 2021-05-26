@@ -3,12 +3,12 @@
     
     width:39px;
     height:39px;
-    margin-top: 81px;
-    margin-left: 110px;
+    margin-top: 40px;
+    margin-left: 95px;
     }
 .img2{
     
-    margin-left:-100px;
+    margin-left:-80px;
     }
 span{
     font-family: SFProDisplay-Bold;
@@ -16,7 +16,8 @@ span{
     color: #000000;
     letter-spacing: -0.11px;
     text-align: center;
-    margin-left: 110px;
+    margin-left: 95px;
+	margin-top: 30px;
     }
 mat-checkbox{
     margin-top: 24px;
@@ -33,6 +34,7 @@ input{
 border-radius: 4px;
 border-radius: 4px;
 margin-left: 121px;
+margin-top: 13px;
 }
 i{
     font-family: SFProDisplay-Bold;
@@ -70,7 +72,7 @@ label {
   cursor: pointer
 }
 .tt{
-	margin-left:15px;
+	margin-left:14px;
 }
 
 #small:checked ~ label[for="small"],
