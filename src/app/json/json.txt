@@ -1,0 +1,7 @@
+const dat = {
+      name:this.user.foodname, 
+      kg:this.user.kg, 
+      week: this.user.weekly,
+       month:this.user.monthly,
+        tilldate:this.user.tilldate
+      }

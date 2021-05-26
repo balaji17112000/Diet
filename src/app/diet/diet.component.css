@@ -1,0 +1,27 @@
+
+
+span{
+font-family: SFProDisplay-Bold;
+font-size: 18px;
+color: #000000;
+letter-spacing: -0.11px;
+text-align: center;
+margin-left: 110px;
+}
+p{
+    width: 270px;
+    height: 38px;
+font-family: SFProDisplay-Regular;
+font-size: 16px;
+margin-top: 81px;
+color: #818181;
+letter-spacing: -0.1px;
+text-align: center;
+}
+img{
+    
+    width:39px;
+    height:39px;
+    margin-top: 231px;
+    margin-left: 110px;
+}

@@ -1,0 +1,23 @@
+
+span{
+width: 287px;
+height:44px;
+margin-top: 59px;
+font-family: OpenSans-Regular;
+font-size: 16px;
+color: #000000;
+letter-spacing: -0.1px;
+text-align: center;
+}
+button{
+
+font-family: SFProDisplay-Bold;
+font-size: 18px;
+color: #000000;
+letter-spacing: -0.11px;
+background: #FFFFFF;
+border: 1px solid #D9D9D9;
+border-radius: 4px;
+border-radius: 4px;
+margin-top: 46px;
+}
